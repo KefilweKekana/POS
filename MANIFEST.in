@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include modern_pos *.css
+recursive-include modern_pos *.csv
+recursive-include modern_pos *.html
+recursive-include modern_pos *.ico
+recursive-include modern_pos *.js
+recursive-include modern_pos *.json
+recursive-include modern_pos *.md
+recursive-include modern_pos *.png
+recursive-include modern_pos *.py
+recursive-include modern_pos *.svg
+recursive-include modern_pos *.txt
+recursive-exclude modern_pos *.pyc
